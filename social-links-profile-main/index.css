@@ -1,0 +1,48 @@
+body {
+  justify-content: center;
+  background-color: hsl(0, 0%, 8%);
+  align-items: center;
+  display: flex;
+}
+.container {
+  height: fit-content;
+  width: fit-content;
+  margin: 5px;
+  padding: 20px;
+  background-color: hsl(0, 0%, 12%);
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+}
+img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+.text {
+  color: white;
+  text-align: center;
+}
+.text p {
+  color: hsl(75, 94%, 57%);
+  margin: 10px;
+}
+.button {
+  margin: 5px;
+}
+.card {
+  margin: 20px;
+}
+.card button {
+  width: 300px;
+  height: 50px;
+  background-color: hsl(0, 0%, 20%);
+  color: white;
+  border-radius: 10px;
+}
+.card .yellow {
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+}
